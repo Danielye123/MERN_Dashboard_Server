@@ -1,7 +1,7 @@
 import express from 'express';
 
 // import all the controllers
-import { createUser, getAllUsers, getUserInfoByID } from '../controllers/user.controller';
+import { createUser, getAllUsers, getUserInfoByID } from '../controllers/user.controller.js';
 
 const router = express.Router();
 
